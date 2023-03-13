@@ -1,0 +1,69 @@
+body {
+    background-color: #ffffff;
+}
+.page-header{
+	display: grid;
+    grid-template-columns: 1fr 260px;
+    margin: 0px;
+    gap: 0px;
+    padding-left: 20px;
+    padding-bottom:70px ;
+    padding-top:30px ;
+    padding-right: 20px;
+}
+.page-header {
+   	padding: 15px 15px;
+   	font-size: 20px;
+   	background: #bbadab;
+}
+.quote{
+    display: table;
+    margin: 0 auto;
+    background-color: rgb(220, 108, 235);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.days-list{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap:30px;
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-bottom:40px ;
+    padding-top:25px ;
+    padding-right: 20px;
+    gap: 30px;
+   
+}
+
+
+
+
+.day {
+    padding-left: 20px;
+    padding-bottom:10px ;
+    padding-top:10px ;
+    padding-right: 10px;
+    background-color: #7ecbdf;
+}
+
+
+footer{
+    padding-left: 20px;
+    padding-bottom:20px ;
+    padding-top:10px ;
+    background-color: #f04646;
+    text-align: center;
+}
