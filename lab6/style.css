@@ -1,0 +1,31 @@
+svg {
+    border: 1px solid #dddddd;
+  }
+  .svg-dr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .shape-opacity {
+    fill: yellowgreen;
+    fill-opacity: 0.75;
+  }
+  
+  .shape-transparent {
+    fill: none;
+  }
+  
+  .shape-stroke {
+    fill: lightseagreen;
+    stroke: teal;
+    stroke-width: 5%;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 15px;
+  }
+  
